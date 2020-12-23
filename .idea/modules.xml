@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sps.iml" filepath="$PROJECT_DIR$/sps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/sps_android.iml" filepath="$PROJECT_DIR$/android/sps_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/sps_example_android.iml" filepath="$PROJECT_DIR$/example/android/sps_example_android.iml" />
+    </modules>
+  </component>
+</project>

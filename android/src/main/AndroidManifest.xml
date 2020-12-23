@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.sps.sps">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:label="tuya_flutter_plugin_example">
+        <meta-data
+            android:name="TUYA_SMART_APPKEY"
+            android:value="dfn7nrd4yy47p89cea3a" />
+        <meta-data
+            android:name="TUYA_SMART_SECRET"
+            android:value="5h59ed4dsxw3rgtgjwpsfnhey5nggapt" />
+    </application>
+</manifest>
