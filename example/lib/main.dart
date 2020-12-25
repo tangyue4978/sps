@@ -1,3 +1,4 @@
+import 'package:app_settings/app_settings.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 
@@ -61,6 +62,12 @@ class _MyAppState extends State<MyApp> {
                   this._controller.setECNet('123', 'tangyue', '123456').then((value) {
                     Fluttertoast.showToast(msg: value.msg.toString());
                   });
+                },
+              ),
+              RaisedButton(
+                child: Text('打开 WIFI 设置'),
+                onPressed: () {
+                  AppSettings.openWIFISettings();
                 },
               ),
             ],
